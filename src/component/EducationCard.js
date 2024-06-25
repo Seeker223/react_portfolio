@@ -1,16 +1,16 @@
 import React from 'react'
 import {FaGraduationCap} from "react-icons/fa"
 
-const EducationCard = () => {
+const EducationCard = ({date, degree,  school}) => {
   return (
     <div className='education_card_container'>
         <div className='education_icon'>
             <FaGraduationCap/>
         </div>
         <div className='education_card_content'>
-            <p>2019-2020</p>
-            <h3>Bsc Information Technology</h3>
-            <p>Mumbai University</p>
+            <p>{date}</p>
+            <h3>{degree}</h3>
+            <p>{school}</p>
         </div>
     </div>
   )

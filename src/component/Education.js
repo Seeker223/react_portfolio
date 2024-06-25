@@ -8,8 +8,8 @@ const Education = () => {
           <h1 className='heading'>Education</h1>
           <div className='education_content'>
             <div className='education_left'>
-              <EducationCard />
-              <EducationCard />
+              <EducationCard date="june 2024" degree="MLops" school="ineuron"/>
+              <EducationCard  date="june 2024" degree="june 2024" school="ineuron"/>
               <EducationCard />
             </div>
             <div className='education_right'>
